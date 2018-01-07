@@ -1,0 +1,9 @@
+*.pyc
+*.wad
+*.exe
+*.pyd
+*.dll
+tumblr_oauth.py
+dist/library.zip
+build/
+wad/
