@@ -200,6 +200,8 @@ class DoomMap:
             file_list.append('"%s"' % f)
         # generate a shell script to run gzdoom with all the correct settings
         cmd = ['python2', 'dmvis.py', ' '.join(self.files_to_load), map_name]
+        SCREENSHOT_FILENAMES[0] = ("%s_%s.gif" % (self.files_to_load[0], map_name))
+        SCREENSHOT_OUTPUT_FILENAMES[0] = SCREENSHOT_FILENAMES[0]
         print(' '.join(cmd))
         subprocess.call(cmd)
 
