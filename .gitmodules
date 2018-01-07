@@ -1,3 +1,6 @@
 [submodule "dmvis"]
 	path = dmvis
 	url = https://github.com/devinacker/dmvis.git
+[submodule "omgifol"]
+	path = omgifol
+	url = https://github.com/devinacker/omgifol.git
